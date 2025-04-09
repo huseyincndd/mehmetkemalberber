@@ -546,7 +546,7 @@ export default function Home() {
                 Galeri
               </h2>
               <p className="mt-4 max-w-2xl mx-auto text-xl text-gray-500">
-                Berber Studio'da yapılan çalışmalardan örnekler
+                Berber Studio&apos;da yapılan çalışmalardan örnekler
               </p>
             </div>
 

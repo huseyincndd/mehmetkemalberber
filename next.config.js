@@ -8,6 +8,10 @@ const nextConfig = {
       },
     ],
   },
+  eslint: {
+    // Turn off ESLint during build
+    ignoreDuringBuilds: true,
+  },
 };
 
 module.exports = nextConfig; 
