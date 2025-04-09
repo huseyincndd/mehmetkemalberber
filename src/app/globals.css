@@ -24,3 +24,53 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Custom Animations */
+@keyframes subtle-zoom {
+  0% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+.animate-subtle-zoom {
+  animation: subtle-zoom 20s infinite ease-in-out;
+}
+
+/* Tailwind Utility Extensions */
+@layer utilities {
+  .backdrop-blur-sm {
+    backdrop-filter: blur(4px);
+  }
+  
+  .text-shadow {
+    text-shadow: 0 4px 8px rgba(0,0,0,0.12);
+  }
+  
+  .text-shadow-lg {
+    text-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d6a036;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b98d30;
+}
