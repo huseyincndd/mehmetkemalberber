@@ -139,11 +139,12 @@ export default function Gallery() {
                 className="group relative aspect-[4/3] overflow-hidden rounded-lg cursor-pointer bg-white"
                 onClick={() => setSelectedImage(image)}
               >
-                <img
+                <Image
                   src={image.src}
                   alt={image.alt}
-                  className="absolute inset-0 h-full w-full object-cover transition-transform duration-300 group-hover:scale-110"
-                  loading="lazy"
+                  width={400}
+                  height={300}
+                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-black opacity-0 transition-opacity duration-300 group-hover:opacity-30">
                   <div className="flex h-full items-center justify-center">
@@ -183,9 +184,11 @@ export default function Gallery() {
                 />
               </svg>
             </button>
-            <img
+            <Image
               src={selectedImage.src}
               alt={selectedImage.alt}
+              width={800}
+              height={600}
               className="w-full h-auto max-h-[80vh] object-contain"
             />
             <p className="mt-4 text-center text-white text-lg">

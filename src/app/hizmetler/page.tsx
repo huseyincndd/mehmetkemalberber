@@ -85,9 +85,11 @@ export default function Services() {
                   className="group relative bg-white rounded-2xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1"
                 >
                   <div className="aspect-[4/3] relative overflow-hidden">
-                    <img
+                    <Image
                       src={service.image}
                       alt={service.name}
+                      width={400}
+                      height={300}
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />

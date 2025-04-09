@@ -145,6 +145,9 @@ export default function About() {
                 <p className="mt-3 max-w-3xl text-lg text-gray-500">
                   Modern teknikleri klasik berberlik sanatıyla birleştirerek, her müşterimize özel bir deneyim sunuyoruz. Salonumuzda sadece saç kesimi değil, erkekler için özel tasarlanmış bir deneyim yaşatıyoruz.
                 </p>
+                <p className="mt-3 max-w-3xl text-lg text-gray-500">
+                  İstanbul&apos;un en iyi erkek kuaförü
+                </p>
               </div>
               <div className="mt-8 lg:mt-0">
                 <div className="relative rounded-lg overflow-hidden shadow-xl">
