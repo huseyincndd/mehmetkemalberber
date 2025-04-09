@@ -242,7 +242,7 @@ export default function Home() {
               </div>
               
               <div className="bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 text-white">
-                <span className="text-sm font-medium">2023 İstanbul'un En İyi Berberi Ödülü</span>
+                <span className="text-sm font-medium">2023 İstanbul&apos;un En İyi Berberi Ödülü</span>
               </div>
             </div>
 
@@ -555,9 +555,11 @@ export default function Home() {
                   className="group relative aspect-[4/3] overflow-hidden rounded-lg cursor-pointer bg-white"
                   onClick={() => openModal(image)}
                 >
-                  <img
+                  <Image
                     src={image.src}
                     alt={image.alt}
+                    width={400}
+                    height={300}
                     className="absolute inset-0 h-full w-full object-cover transition-transform duration-300 group-hover:scale-110"
                     loading="lazy"
                   />
@@ -620,9 +622,11 @@ export default function Home() {
                     />
                   </svg>
                 </button>
-                <img
+                <Image
                   src={selectedImage.src}
                   alt={selectedImage.alt}
+                  width={400}
+                  height={300}
                   className="w-full h-auto max-h-[80vh] object-contain"
                 />
                 <p className="mt-4 text-center text-white text-lg">
