@@ -102,7 +102,7 @@ export default function Hero() {
           </div>
           
           <div className="bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 text-white">
-            <span className="text-sm font-medium">2023 İstanbul'un En İyi Berberi Ödülü</span>
+            <span className="text-sm font-medium">Şehrin&apos;in En İyi Erkek Kuaförü</span>
           </div>
         </div>
 

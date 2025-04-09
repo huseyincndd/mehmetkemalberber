@@ -64,8 +64,9 @@ export default function Services() {
                 <Image
                   src={service.image}
                   alt={service.name}
-                  fill
-                  className="w-full h-full object-center object-cover"
+                  width={400}
+                  height={300}
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
               </div>
               <div className="mt-4 flex justify-between">
