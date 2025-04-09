@@ -53,7 +53,7 @@ export default function Services() {
             Hizmetlerimiz
           </h2>
           <p className="mt-4 max-w-2xl mx-auto text-xl text-gray-500">
-            Berber Studio'da size sunduğumuz profesyonel hizmetler
+            Berber Studio&apos;da size sunduğumuz profesyonel hizmetler
           </p>
         </div>
 
